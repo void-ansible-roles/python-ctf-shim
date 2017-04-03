@@ -1,0 +1,10 @@
+---
+- name: Install Python2 and 3 virtualenv
+  xbps:
+    pkg:
+      - python-virtualenv
+      - python3-virtualenv
+      - python-devel
+      - python3-devel
+      - base-devel
+    state: present
